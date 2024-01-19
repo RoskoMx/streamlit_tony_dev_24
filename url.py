@@ -11,7 +11,7 @@ def shorten_url(url): #Función que recibe la URL
 #creamos app web con stremamlit
 #Configuración de la página: título, el ícono y la forma en cómo se verá la página
 st.set_page_config(page_title="URL Shortener", page_icon="✏️", layout="centered")
-st.image("rosko.jpg", use_column_width=True)
+st.image("images/rosko.jpg", use_column_width=True)
 st.title("URL Shortener")
 url = st.text_input("Enter the URL")
 if st.button("Generate new URL"):
